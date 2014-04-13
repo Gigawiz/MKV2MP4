@@ -9,6 +9,8 @@ using System.Windows.Forms;
 using System.Diagnostics;
 using System.IO;
 using System.Net;
+using System.Security.Principal;
+using System.Reflection;
 
 namespace Mkv_2_Mp4
 {

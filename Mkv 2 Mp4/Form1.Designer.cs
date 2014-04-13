@@ -418,6 +418,7 @@
             this.checkForUpdatesToolStripMenuItem.Name = "checkForUpdatesToolStripMenuItem";
             this.checkForUpdatesToolStripMenuItem.Size = new System.Drawing.Size(118, 20);
             this.checkForUpdatesToolStripMenuItem.Text = "Check For Updates";
+            this.checkForUpdatesToolStripMenuItem.Visible = false;
             this.checkForUpdatesToolStripMenuItem.Click += new System.EventHandler(this.checkForUpdatesToolStripMenuItem_Click);
             // 
             // tabPage4
@@ -448,25 +449,25 @@
             // checkBox2
             // 
             this.checkBox2.AutoSize = true;
-            this.checkBox2.Checked = true;
-            this.checkBox2.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox2.Location = new System.Drawing.Point(8, 35);
+            this.checkBox2.Location = new System.Drawing.Point(8, 58);
             this.checkBox2.Name = "checkBox2";
             this.checkBox2.Size = new System.Drawing.Size(180, 17);
             this.checkBox2.TabIndex = 1;
             this.checkBox2.Text = "Check for Updates Automatically";
             this.checkBox2.UseVisualStyleBackColor = true;
+            this.checkBox2.Visible = false;
             this.checkBox2.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged);
             // 
             // checkBox3
             // 
             this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(8, 58);
+            this.checkBox3.Location = new System.Drawing.Point(8, 35);
             this.checkBox3.Name = "checkBox3";
             this.checkBox3.Size = new System.Drawing.Size(127, 17);
             this.checkBox3.TabIndex = 2;
             this.checkBox3.Text = "Enable Beta Updates";
             this.checkBox3.UseVisualStyleBackColor = true;
+            this.checkBox3.Visible = false;
             this.checkBox3.CheckedChanged += new System.EventHandler(this.checkBox3_CheckedChanged);
             // 
             // Form1

@@ -12,6 +12,12 @@ Self Updating
 
 Changelog
 ==========
+V2.1.3
+
+Removed updater options (update at boot, check for updates button, beta updates button)
+
+Enabled click once
+
 V2.1.2
 
 Added tabbed layout

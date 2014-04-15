@@ -234,7 +234,7 @@ namespace Mkv_2_Mp4
             abt.Show();
         }
 
-        int progver = 1;
+        int progver = 2;
 
         private void asyncUpdateCheck()
         {
@@ -361,6 +361,11 @@ namespace Mkv_2_Mp4
         int total = 0;
         private void batchConvert()
         {
+            if (!File.Exists(Directory.GetCurrentDirectory() + @"\ffmpeg.exe"))
+            {
+                MissingFFmpeg dlffmpeg = new MissingFFmpeg();
+                dlffmpeg.ShowDialog();
+            }
             if (_conversionFiles.Any())
             {
                 //get our file location from the queue
